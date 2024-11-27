@@ -34,11 +34,10 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
+    
 }
 .site-title{
-    position: relative;
+    /* position: relative; */
     left: 10em;
     
     
