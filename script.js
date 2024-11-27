@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loadScrollingText();
   
     // Slideshow Initialization
-    const folderPath = "/images1/";
+    const folderPath = "./images1/";
     const slideshowContainer = document.querySelector(".slides-container");
     const prevButton = document.getElementById("prev");
     const nextButton = document.getElementById("next");
