@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrolling Control</title>
+  
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <main>
+    <!-- Login Form -->
+    <div id="loginForm" class="login-container">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button id="loginButton" class="btn">Login</button>
+    </div>
+
+    <!-- Control Panel -->
+    <div id="controlPanel" class="control-container" style="display:none;">
+      <h2>Scrolling Text Control</h2>
+      <div class="edit-section">
+        <input type="text" id="newScrollingText" placeholder="Enter new scrolling text">
+        <button id="updateTextButton" class="btn">Update</button>
+      </div>
+      <button id="logoutButton" class="btn">Logout</button>
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
