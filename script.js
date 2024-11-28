@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Load Scrolling Text
     function loadScrollingText() {
-      const scrollingText = localStorage.getItem("scrollingText") || "Default scrolling text.";
+      const scrollingText = localStorage.getItem("scrollingText") || "89 auto drivers took their own lives due to the loss of livelihood caused by the introduction of the free bus scheme.   49 Gurukula students were reported deceased due to incidents such as food poisoning and snake bites. 27 weavers took their lives due to a lack of government assistance. 603 farmers took their lives.";
       const scrollingTextElement = document.getElementById("scrollingText");
       if (scrollingTextElement) {
         scrollingTextElement.textContent = scrollingText;
@@ -60,10 +60,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const prevButton = document.getElementById("prev");
     const nextButton = document.getElementById("next");
     const imageFiles = [
-      "image1 (1).png",
-      "image1 (2).png",
-      "image1 (3).png",
-      "image1 (4).png"
+    "image 1 (1).jPG",
+    "image 1 (2).jPG",
+    "image 1 (3).jPG",
+    "image 1 (4).JPEG",
+    "1.PNG",
+    "2.PNG",
+    "3.PNG",
+    "4.PNG"
+    
+    
     ];
   
     function initSlideshow() {
